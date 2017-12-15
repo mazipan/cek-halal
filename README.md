@@ -6,7 +6,7 @@
 
 ## Demo
 
-*under development*
+[https://mazipan.github.io/cek-halal/](https://mazipan.github.io/cek-halal/)
 
 ## API
 

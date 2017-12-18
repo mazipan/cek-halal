@@ -4,6 +4,8 @@
 
 :rice: Cek produk halal berdasarkan sertifikat dari MUI
 
+![cek-halal](https://raw.githubusercontent.com/mazipan/cek-halal/master/src/assets/cek-halal-small.png)
+
 ## Demo
 
 [https://mazipan.github.io/cek-halal/](https://mazipan.github.io/cek-halal/)

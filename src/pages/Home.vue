@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img src="../assets/cek-halal.png"/>   
+    <img src="../assets/cek-halal-small.png"/>   
   </div>
 </template>
 

@@ -5,6 +5,8 @@
       <li><a href="https://github.com/mazipan/cek-halal" target="_blank" rel="noopener">Source Code</a></li>
       <li><a href="https://github.com/mazipan/" target="_blank" rel="noopener">Author</a></li>
     </ul>
+
+    <small>Copyright &copy; 2017 Irfan Maulana</small>
   </footer>
 </template>
 

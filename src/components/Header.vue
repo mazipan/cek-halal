@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-      <img src="../assets/cek-halal.png" class="brand"/>  
+      <img src="../assets/cek-halal-small.png" class="brand"/>  
       <span class="brand-title">Cek Halal</span>
     </header>
 </template>
@@ -31,6 +31,7 @@ export default {
   vertical-align: middle;
   margin: 0.5em;
   border-radius: 0.3em;
+  background-color: #fff;
 }
 
 .brand-title {

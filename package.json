@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.2.3",
+    "axios": "0.17.1",
     "babel-core": "^6.26.0",
     "sw-precache-webpack-plugin": "^0.11.4",
     "babel-eslint": "^8.0.3",

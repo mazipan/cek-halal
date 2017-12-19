@@ -54,7 +54,8 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios-jsonp-pro'
+const jsonp = require('jsonp')
 
 export default {
   name: 'Search',
@@ -108,16 +109,15 @@ export default {
         .selectedMenu.value}&query=${this.searchText}`
 
       if (this.searchText !== '') {
-        axios.defaults.crossDomain = true
-        axios
-          .get(path)
-          .then((response) => {
-            this.dataResult = response.data
-            console.log('Success when getting data via API ', response)
-          })
-          .catch((error) => {
-            console.log('Error when trying to get via API ', error)
-          })
+        jsonp(path, {
+          timeout: 10000
+        }, function (err, data) {
+          if (err) {
+            console.log('Error ', err)
+          } else {
+            console.log('Success ', data)
+          }
+        })
       }
     }
   }

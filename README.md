@@ -12,7 +12,7 @@
 
 ## API
 
-+ Author : [bachors](https://github.com/bachors/)
++ Author : [bachors](https://github.com/bachors/) from repository [apiapi](https://github.com/bachors/apiapi)
 + Sample API : https://sites.google.com/macros/exec?service=AKfycbx_-gZbLP7Z2gGxehXhWMWDAAQsTp3e3bmpTBiaLuzSDQSbIFWD&menu=nama_produk&query=abc
 + Available **menu** : `nama_produk`, `nama_produsen` and `nomor_sertifikat`
 
